@@ -1,0 +1,107 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+:root {
+	--americanSilver: #c7d3d4ff;
+	--royalPurple: #603f83ff;
+}
+@font-face {
+	font-family: entu;
+	src: url(assets/EntuistaRegular.otf) format(opentype);
+}
+@font-face {
+	font-family: circ;
+	src: url(assets/CircularStdBook.woff) format(woff);
+}
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background: var(--americanSilver);
+	font-family: entu;
+}
+
+/*?===== NAVBAR =====*/
+nav {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+nav div {
+	display: flex;
+	padding: 1rem;
+	gap: 6rem;
+}
+nav div a {
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: var(--royalPurple);
+	font-family: circ;
+	letter-spacing: 3px;
+}
+
+/*?===== MAIN TEXT =====*/
+.main-text {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+.main-text .text {
+	position: relative;
+	font-size: 10rem;
+	color: var(--royalPurple);
+	line-height: 1.125;
+}
+
+/*?===== MAIN IMAGE =====*/
+.image {
+	position: relative;
+	width: 99vw;
+	height: 66.5vh;
+	margin: 0 auto;
+}
+img {
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*?===== MAIN CURTIN COVER =====*/
+.cover {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 100;
+	display: flex;
+}
+.cover-bar {
+	width: 10vw;
+	height: 105vh;
+	background: var(--royalPurple);
+}
+
+/*?===== COUNTDOWN =====*/
+.count {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	z-index: 200;
+	font-weight: 200;
+	color: var(--americanSilver);
+	letter-spacing: 10px;
+	padding: 0.2rem 0.4rem;
+	font-size: 20.5rem;
+}
