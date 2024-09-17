@@ -1,3 +1,6 @@
+![Project GIF](./smoke.gif)
+
+
 **Smoke: A Captivating Web Experience**
 
 **Introduction**
@@ -49,3 +52,12 @@ Consider these potential additions to elevate the experience:
 We welcome contributions to this project! If you have improvements, fixes, or feature ideas, feel free to create a pull request on this repository.
 
 We hope you enjoy using this code and experimenting with its potential!
+
+**Author**
+
+Goutam Prasad (@goutam-prasad-27)
+
+**License**
+
+-    This project is licensed under the MIT License - see the LICENSE file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
